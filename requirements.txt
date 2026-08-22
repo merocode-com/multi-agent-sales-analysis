@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------
+# multi-agent-sales-analysis — Python dependencies
+# Install with:  pip install -r requirements.txt
+# Tested on Python 3.10
+# ---------------------------------------------------------------------------
+
+# --- Core data analysis ---
+pandas>=2.2
+numpy>=1.26
+
+# --- Visualization ---
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- Notebook environment ---
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.29
+
+# --- Multi-agent framework (WIP: uncomment the one you choose) ---
+# The agent layer is not built yet. Common options — pick one and pin it:
+# anthropic>=0.40      # Build agents directly on the Claude API (recommended)
+# langgraph>=0.2       # Graph-based orchestration (LangChain ecosystem)
+# crewai>=0.60         # Role-based multi-agent "crews"
+# pyautogen>=0.2       # Microsoft AutoGen multi-agent conversations
