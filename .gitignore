@@ -92,6 +92,9 @@ coverage.xml
 .dmypy.json
 .ruff_cache/
 
+# Claude Code personal settings (local, not shared)
+.claude/settings.local.json
+
 # IDEs and editors
 .idea/
 .vscode/
