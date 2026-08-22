@@ -64,6 +64,11 @@ data/*.db
 data/*.sqlite
 !data/.gitkeep
 
+# --- Committed datasets (intentionally version-controlled) ---
+# The coffee-sales dataset is public-domain and small, so we track it in-repo.
+# (The data/*.csv rules above only ignore loose files dropped directly in data/.)
+!data/coffee-sales/
+
 # Models / large binaries
 *.pkl
 *.joblib
