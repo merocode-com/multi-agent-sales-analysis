@@ -15,7 +15,7 @@ This project uses the **Coffee Sales** dataset from Kaggle.
 
 - **Source:** https://www.kaggle.com/datasets/ihelon/coffee-sales
 - **Author:** ihelon
-- **License:** Public domain — see the dataset page for the authoritative terms
+- **License:** [CC0 1.0 (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/) — free to use without restriction or attribution
 - **Location in repo:** `data/coffee-sales/`
 - **Description:** Transaction-level records of coffee vending-machine sales —
   date/time, payment type, product (coffee name), and amount per sale.
@@ -47,6 +47,14 @@ multi-agent-sales-analysis/
 
 - Python
 - Jupyter Notebook
+
+## License
+
+- **Code** in this repository is licensed under the [MIT License](LICENSE)
+  © 2026 Amira Ghoneim and Merocode.
+- **Data** in `data/coffee-sales/` comes from Kaggle and is released under
+  [CC0 1.0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/),
+  free to use without restriction or attribution.
 
 ## Status
 
